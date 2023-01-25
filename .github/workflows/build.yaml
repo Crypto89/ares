@@ -18,5 +18,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
+          output: type=docker
           push: false
           tags: ares:latest
